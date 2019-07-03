@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="mystyle.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+    <title>Gold's Gym</title>
+</head>
+
+<body>
+
+    <header class="site-header">
+        <div class="main header-content">
+            <div class="bar">
+                <img src="img/Gold's-Gym-Egypt-15538-1453819617.jpg" alt="gym icon">
+                <nav class="navigation">
+                    <a href="index.html">Home</a>
+                    <a href="aboutus.html">About Us</a>
+                    <a href="#">Gallery</a>
+                    <a href="#">Contact</a>
+                </nav>
+            </div>
+            <div>
+                <h1>Welcome to Gold's Gym</h1>
+            </div>
+        </div>
+    </header>
+
+    <main class="content">
+
+        <h2>Contact Information</h2>
+        <form>
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" placeholder="Enter your name">
+
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="Enter your email">
+
+                <label for="phone-number">Phone Number:</label>
+                <input type="tel" name="phone" id="phone" placeholder="Enter your phone number">
+
+                <label for="message">Message:</label>
+                <textarea name="" id="message" cols="30" rows="10"></textarea>
+
+                <label for="number">Age:</label>
+                <input type="number" name="number" min="1" max="100" step="1">
+            </fieldset>
+
+            <fieldset>
+                <legend>Demographic Information</legend>
+                <label for="options">Country</label>
+                <select name="" id="options">
+                    <option value="" disabled selected>------ Select an option ------</option>
+                    <option value="USA">United States</option>
+                    <option value="Mexico">Mexico</option>
+                    <option value="Philippines">Philippines</option>
+                </select>
+            </fieldset>
+
+            <fieldset>
+                <legend>Membership Information</legend>
+                <label for="bronze">Bronze</label>
+                <input type="radio" name="bronze" id="bronze" value="Bronze">
+                <label for="silver">Silver</label>
+                <input type="radio" name="silver" id="silver" value="Silver">
+                <label for="gold">Gold</label>
+                <input type="radio" name="gold" id="gold" value="Gold">
+            </fieldset>
+            <input type="submit" name="send" class="butn">
+        </form>
+
+    </main>
+
+    <div class="content">
+        <footer class="footer">
+            <nav class="footer-nav">
+                <a href="index.html">Home</a>
+                <a href="aboutus.html">About Us</a>
+                <a href="#">Gallery</a>
+                <a href="#">Contact</a>
+            </nav>
+            <div class="copyright">
+                <p>All rights reserved &copy; Angelo Totanes</p>
+            </div>
+        </footer>
+    </div>
+
+</body>
+
+</html>
